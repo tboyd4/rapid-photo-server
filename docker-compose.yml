@@ -1,0 +1,9 @@
+version: "3"
+services:
+    rapidphoto_db:
+        image: "postgres:11"
+        container_name: "rapidphoto_db"
+        ports:
+            - "54321:5432"
+        environment: 
+            POSTGRES_PASSWORD: p@ssw0rd
