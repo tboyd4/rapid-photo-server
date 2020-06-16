@@ -12,7 +12,7 @@ module.exports = [{
     database: DB_DATABASE,
     synchronise: true,
     entities: [
-        'src/**.module/*-module.ts'
+        'src/**.module/*-model.ts'
     ],
     subscribers: [
         'src/**.module/*-subscriber.ts'
